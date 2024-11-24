@@ -1,0 +1,13 @@
+[project]
+name = "cardskipper-sdk"
+version = "0.1.0"
+description = "SDK for the Cardskipper API"
+readme = "README.md"
+dependencies = [
+    "requests",
+    "pydantic",
+    "xmlschema",
+]
+
+[tool.uv]
+dev-dependencies = []
